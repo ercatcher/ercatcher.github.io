@@ -13,13 +13,6 @@ repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-
-
 Happens-Before ($HB$) is a strict partially ordered set on nodes $N$ which is the set of $e.s$, $e.e$, and $e.i$ for all $e \in E$. The $HB$ relation is defined as:
 $$n_1 \prec n_2 \iff (H(n_2) \Rightarrow H(n_1) \land HBD(n_1, n_2)$$
 where $H(n_1)$ means the node $n_1$ is executed (or happens) and $HBD(n_1, n_2)$ means the node $n_1$ happens before node $n_2$ in all possible orders of execution in run time. 
@@ -42,6 +35,14 @@ Let say $HB^{*}(E)$ is the complete and sound happens-before ordered set on even
     $$t \in M \Rightarrow \forall e, e' \in E(t): e.i \prec e'.i \land e.d \prec e'.d \Rightarrow e.e \prec e'.s$$
 \end{itemize}
 
+
+
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
 
 
 ### Header 3
